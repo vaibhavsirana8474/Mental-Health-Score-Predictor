@@ -3,10 +3,18 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 from typing import Literal
 import pandas as pd
+from fastapi.middleware.cors import CORSMiddleware
 
 model = joblib.load("Mental_Health_Model.pkl")
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Pydantic Model for Input Validation
 class StudentData(BaseModel):
