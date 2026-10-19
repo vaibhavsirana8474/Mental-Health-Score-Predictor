@@ -1,6 +1,10 @@
 # 🧠 Mental Health Signal — Student Wellness Analytics
 
+[![Live Demo](https://img.shields.io/badge/Render-Live%20Demo-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://mental-health-score-predictor-1-b72d.onrender.com)
+
 A full-stack Machine Learning application designed to predict and analyze a student's mental health score based on their daily habits, digital screen usage, academic workload, and lifestyle factors.
+
+🔗 **Live Deployment:** [https://mental-health-score-predictor-1-b72d.onrender.com](https://mental-health-score-predictor-1-b72d.onrender.com)
 
 ---
 
